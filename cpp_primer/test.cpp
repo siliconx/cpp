@@ -5,8 +5,9 @@
 using namespace std;
 
 int main(int argc, char const *argv[]) {
-    for (int i=0;i<999999;i++) {
-        cout << i << "\n";
+    char c;
+    while (cin >> c) {
+        cout << "the value of '" << c << "' is " << int(c) << endl;
     }
     return 0;
 }
